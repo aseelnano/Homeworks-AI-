@@ -11,6 +11,16 @@ public class homework_1 {
      
      int input = x.nextInt();
      
+
+  for (int i = 1; i <= input ; i++) {
+
+            if( (input % i) == 0){
+                
+                System.out.println(i );
+            }
+            
+        }
+
     }
     
 }
